@@ -102,28 +102,28 @@ html{
 
 .text-preset-1{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 1.5385rem;
     line-height: 120%;
     font-weight: 600;
 }
 
 .text-preset-2{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 110%;
     font-weight: 500;
 }
 
 .text-preset-3{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 140%;
     font-weight: 500;
 }
 
 .text-preset-4{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 11px;
+    font-size: 0.8461rem;
     line-height: 110%;
     font-weight: 500;
 }
@@ -132,27 +132,27 @@ html{
 main{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 2.4615rem;
     justify-content: center;
-    margin: 73px 35px;
+    margin: 5.6154rem 2.6923rem;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 32px;
-    border-radius: 8px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    gap: 1.2307rem;
+    padding: 2.4615rem;
+    border-radius: 0.6154rem;
+    box-shadow: 0 0.4615rem 1.5385rem rgba(0, 0, 0, 0.25);
 }
 
 .user{
     display: flex;
-    gap: 17px;
+    gap: 1.3077rem;
 }
 
 .user img{
-    width: 28px;
+    width: 2.1538rem;
     border-radius: 50%;
 }
 
@@ -169,7 +169,7 @@ main{
     main{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, auto);
-        margin: 83px 61px 113px 60px;
+        margin: 6.3846rem 4.6923rem 8.6923rem 4.6154rem;
     }
 
     .card1{
@@ -197,7 +197,7 @@ main{
     main{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, auto);
-        margin: 229px 161px 218px 165px;
+        margin: 17.6154rem 12.3846rem 16.7692rem 12.6923rem;
     }
 
     .card1{
