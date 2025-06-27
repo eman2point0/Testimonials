@@ -1,3 +1,159 @@
+:root {
+    --black: #121212;
+    --darkBlue: #19202D;
+    --white: #FFFFFF;
+    --grey100: #E7EAEE;
+    --grey200: #CFCFCF;
+    --grey400: #676D7E;
+    --grey500: #48556A;
+    --purple50: #EDE4FF;
+    --purple300: #A775F1;
+    --purple500: #733FC8;
+}
+
+/* Mobile Styles */
+
+*{
+    margin: 0;
+}
+
+/* -- Typography -- */
+html{
+    background-color: #F6F5F6;
+}
+
+.card1{
+    background-color: var(--purple500);
+    color: var(--white);
+}
+.card1 .card-quote{
+    color: var(--purple50);
+}
+
+.card1 img{
+    border: 2px solid var(--purple300);
+}
+
+.card2{
+    background-color: var(--grey500);
+    color: white;
+}
+
+.card2 .user .card-role{
+    color: var(--grey200);
+}
+
+.card2 .card-quote{
+    color: var(--grey100);
+}
+
+.card3{
+    background-color: var(--white);
+    color: var(--grey500);
+}
+
+.card3 .user-info .card-role{
+    color: var(--grey400);
+}
+
+.card3 .card-quote{
+    color: var(--grey400);
+}
+
+.card4{
+    background-color: var(--darkBlue);
+    color: var(--white);
+}
+
+.card4 .card-review{
+    color: var(--grey200);
+}
+
+.card4 .card-quote{
+    color: var(--grey100);
+}
+
+.card4 img{
+    border: 2px solid var(--purple300);
+}
+
+
+.card5{
+    background-color: var(--white);
+   
+}
+
+.card5 .user-info .card-name{
+    color: var(--grey500);
+}
+
+.card5 .user-info .card-role{
+    color: var(--grey400);
+}
+
+.card5 .card-review{
+    color: var(--grey500);
+}
+
+.card5 .card-quote{
+    color: var(--grey400);
+}
+
+.text-preset-1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.text-preset-2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+.text-preset-3{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+.text-preset-4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 11px;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+/* -- Layout -- */
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    justify-content: center;
+    margin: 73px 35px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.user{
+    display: flex;
+    gap: 17px;
+}
+
+.user img{
+    width: 28px;
+    border-radius: 50%;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
